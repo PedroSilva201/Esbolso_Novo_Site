@@ -1,4 +1,4 @@
-# Esbolso_Novo_Site
+# Esbolso do novo site (Em fase de testes)
 Este será um esbolso para a criação de um novo site que devo desenvolver nos próximos dias.
 A ideia serve para poder mostrar e testar as funcionalidades aplicadas no novo site vista como conhecimento ao decorrer dos anos.
 Este site usa a linguagem javascript no back-end com o uso do node para a geração, do ejs que é uma linguagem de programação correspondente ao html com elementos do javascript e tambem do css.
