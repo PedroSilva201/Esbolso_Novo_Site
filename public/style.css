@@ -51,9 +51,11 @@ button:hover {
 }
 /* public/css/style.css */
 .logo {
+  width: 370px; /* Ajuste o tamanho conforme necessário */
+  height: 370px;
   display: block;
   margin: 0 auto;
-  max-width: 100px; /* Define uma largura máxima */
+  max-width: 600px; /* Define uma largura máxima */
   height: auto; /* Mantém a proporção da imagem */
   padding-bottom: 15px; /* Espaço abaixo da imagem */
 }

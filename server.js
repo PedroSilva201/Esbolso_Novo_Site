@@ -38,6 +38,9 @@ app.get('/exemplo4', (req, res) => {
 app.get('/exemplo5', (req, res) => {
   res.render('exemplo5'); 
 });
+app.get('/exemplo6', (req, res) => {
+  res.render('exemplo6'); 
+});
 app.get('/saibamais', (req, res) => {
   res.render('saibamais'); 
 });
