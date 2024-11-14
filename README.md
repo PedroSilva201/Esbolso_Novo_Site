@@ -1,23 +1,50 @@
-# Esbolso do novo site (Em fase de testes)
-Este será um esbolso para a criação de um novo site que devo desenvolver nos próximos dias.
-A ideia serve para poder mostrar e testar as funcionalidades aplicadas no novo site vista como conhecimento ao decorrer dos anos.
-Este site usa a linguagem javascript no back-end com o uso do node para a geração, do ejs que é uma linguagem de programação correspondente ao html com elementos do javascript e tambem do css.
-O site ainda está passadno por testes e ajustes que deverá ser feito isso até a criação do modelo difinitivo que terá mudanças em breve ao fim do projeto.
-A grande parte dos elementos de front inclusive imagens fui eu que gerei e criei, já a outra parte foi feito usando Chat GPT, inclusive auxiliando em relembrar conceitos antigos que nem me lembrava sobre determiandas tecnicas, nos próximos dias um modelo novo deverá ser apresentado com a intenção do meu site.
+# Projeto Abacaxi 🍍
 
-# Explicando como é a linguagem ejs
-A linguagem EJS é uma linguagem de programaçlão que é um combinado de Javascript com o HTML e o CSS, basicamente é o mesmo HTML e CSS, porem usando elementos do javascript sendo um template para o Node.
+Este é um projeto full-stack desenvolvido com Node.js, Express, MongoDB e EJS, com funcionalidades como um sistema de contato e gerenciamento de matérias.
 
-# Apresentação Breve do site
-O mesmo constiste em ter uma interface principal para a apresentação dos destaques do meu site.
+## Funcionalidades
 
-> ![Interface do Site](https://private-user-images.githubusercontent.com/67759198/383977774-4b93bb5c-fa6b-4596-8048-a77f0a937a27.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzA5ODY2MzUsIm5iZiI6MTczMDk4NjMzNSwicGF0aCI6Ii82Nzc1OTE5OC8zODM5Nzc3NzQtNGI5M2JiNWMtZmE2Yi00NTk2LTgwNDgtYTc3ZjBhOTM3YTI3LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA3VDEzMzIxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUxMzllNTQ2Njg2MDg2N2M3NTA1NjAwZGVmMDE3ZmViMTQ1NDViZDk5MzNlODUwOTI2ZWQ3NDYzMzk0YzU4YmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.G5pSarFrPnHTt7-BacuNEambyrreMvmqLj7fFCcvtSo)
+- Cadastro de conteúdo para o site
+- Sistema de contato com validação de email
+- Páginas dinâmicas com EJS
+- Segurança integrada com Helmet e Express-Rate-Limit
+
+## Estrutura de Arquivos
 
 
+## Tecnologias Utilizadas
 
-Já ao clicar em um destes destaques aparece isso
+- Node.js e Express
+- MongoDB com Mongoose
+- EJS para templates dinâmicos
+- Helmet e Express-Rate-Limit para segurança
+- Jest e Supertest para testes
 
-> ![Interface 2](https://private-user-images.githubusercontent.com/67759198/383978331-902cc52b-d4e0-4b5f-979c-469082e51c7f.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzA5ODY1OTAsIm5iZiI6MTczMDk4NjI5MCwicGF0aCI6Ii82Nzc1OTE5OC8zODM5NzgzMzEtOTAyY2M1MmItZDRlMC00YjVmLTk3OWMtNDY5MDgyZTUxYzdmLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA3VDEzMzEzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThiNWM3YjJkMzRkNGIzMjcxOGJhOTczNDI3Zjk2M2E3YzE4MjJjMWI4NDdhMzUwNjUyNTlhOGM2MDJmZTYxYmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.7N22NCDsdlDfVbxPtfjOzl-WhNxIIU3mV_Ww2Pk7kIc)
+## Configuração e Instalação
 
-Bem detalhado, porem ainda o site está em consttrução com a implementação de novas funcionalidades bem como outros metódos, futuramente o mesmo deve ser hospedado em uma nuvem para suo em geral.
-Observação: As matérias são ficticias, bem como as imagens de paint apenas para ilustração dos fatos, mas quando estiver em operação isso será substituido por fatos reais...
+1. Clone o repositório.
+2. Instale as dependências com `npm install`.
+3. Crie um arquivo `.env` com as variáveis de ambiente:
+
+
+Esse exemplo cobre as informações essenciais. Adicione ou altere detalhes conforme necessário para refletir as particularidades do seu projeto.
+
+### 2. **Feedback de Consentimento de Cookies (Back-End)**
+
+Se você deseja adicionar um sistema de consentimento de cookies para conformidade com a LGPD/GPDR, pode configurar isso tanto no front-end quanto no back-end. Abaixo, explico como fazer a parte básica do back-end.
+
+1. **Adicione uma Rota para Consentimento de Cookies**
+
+   No seu `server.js` ou em um arquivo de rota de cookies, crie uma rota para configurar o consentimento de cookies do usuário.
+
+   ```javascript
+   app.post('/consentimento-cookies', (req, res) => {
+       const consentido = req.body.consentido;
+       if (consentido) {
+           res.cookie('cookieConsent', 'aceito', { maxAge: 30 * 24 * 60 * 60 * 1000 }); // Expira em 30 dias
+           res.status(200).json({ message: 'Consentimento aceito' });
+       } else {
+           res.clearCookie('cookieConsent');
+           res.status(200).json({ message: 'Consentimento rejeitado' });
+       }
+   });

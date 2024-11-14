@@ -1,0 +1,21 @@
+<!-- views/materias.ejs -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Matérias</title>
+</head>
+<body>
+    <h1>Matérias Publicadas</h1>
+    <ul>
+        <% materias.forEach(materia => { %>
+            <li>
+                <h2><%= materia.titulo %></h2>
+                <p><%= materia.conteudo %></p>
+                <small>Publicado em <%= materia.dataCriacao.toDateString() %></small>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>

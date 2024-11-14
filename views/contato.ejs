@@ -1,30 +1,53 @@
-<!-- views/contato.ejs -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      </head>
+      
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O LEPEI COLONIO</title>
+    <title>Contato</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
-<nav class="navbar">
-    <h1>SITE DO PEDRO - Sejam Bem-vindos ao Meu Site!</h1>
-    <div class="nav-links">
-        <a href="/" class="nav-item">Home</a>
-        <a href="/sobre" class="nav-item">Sobre o nosso site</a>
-        <a href="/contato" class="nav-item">Contato</a>
-    </div>
-</nav>
-<footer>
-    <p>&copy; 2024 Meu Site - Todos os direitos reservados</p>
-    <p>Entre em contato pelo e-mail: contato@exemplo.com</p>
-    <p>Termos de uso</p>
-    <p>Política de privacidade</p>
-    <p>Sobre nós</p>
-</footer>
+<body>
+    <nav class="navbar">
+        <h1>SITE DO PEDRO - Sejam Bem-vindos ao Meu Site!</h1>
+        <div class="nav-links">
+            <a href="/" class="nav-item">Home</a>
+            <a href="/sobre" class="nav-item">Sobre o nosso site</a>
+            <a href="/contato" class="nav-item">Contato</a>
+        </div>
+    </nav>
+
+    <!-- Formulário de Contato -->
+    <main>
+        <h2>Entre em Contato Conosco</h2>
+        <form action="/contato" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <script>
+        function showConfirmation() {
+          Swal.fire({
+            icon: 'success',
+            title: 'Ação concluída!',
+            text: 'Seu conteúdo foi enviado com sucesso.',
+          });
+        }
+      </script>
+      
+    <footer>
+        <p>&copy; 2024 Meu Site - Todos os direitos reservados</p>
+    </footer>
+</body>
 </html>

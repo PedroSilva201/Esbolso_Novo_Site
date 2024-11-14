@@ -172,3 +172,22 @@ body {
   color: #333;
 }
 
+/* Estilos para telas maiores */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* Outros estilos... */
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .destaques-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* Ajustes adicionais para telas pequenas... */
+}
