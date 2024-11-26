@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-      </head>
-      
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +8,26 @@
 </head>
 <body>
     <nav class="navbar">
-        <h1>SITE DO PEDRO - Sejam Bem-vindos ao Meu Site!</h1>
+        <h1>Entre em Contato</h1>
         <div class="nav-links">
             <a href="/" class="nav-item">Home</a>
-            <a href="/sobre" class="nav-item">Sobre o nosso site</a>
             <a href="/contato" class="nav-item">Contato</a>
         </div>
     </nav>
 
-    <!-- Formulário de Contato -->
     <main>
-        <h2>Entre em Contato Conosco</h2>
+        <h2>Fale Conosco</h2>
+        
+        <!-- Mensagem de Sucesso -->
+        <% if (success) { %>
+            <div class="success-message"><%= success %></div>
+        <% } %>
+    
+        <!-- Mensagem de Erro -->
+        <% if (error) { %>
+            <div class="error-message"><%= error %></div>
+        <% } %>
+    
         <form action="/contato" method="POST">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
@@ -36,18 +41,10 @@
             <button type="submit">Enviar</button>
         </form>
     </main>
-    <script>
-        function showConfirmation() {
-          Swal.fire({
-            icon: 'success',
-            title: 'Ação concluída!',
-            text: 'Seu conteúdo foi enviado com sucesso.',
-          });
-        }
-      </script>
-      
+    
+    
     <footer>
-        <p>&copy; 2024 Meu Site - Todos os direitos reservados</p>
+        <p>&copy; 2024 Meu Site</p>
     </footer>
 </body>
 </html>
