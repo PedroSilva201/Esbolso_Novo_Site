@@ -49,3 +49,6 @@ Se você deseja adicionar um sistema de consentimento de cookies para conformida
            res.status(200).json({ message: 'Consentimento rejeitado' });
        }
    });
+   ```
+   As princiapis mudanças é em relação ao funcionamento da página de contatos e tambem da integração com o MongoDB, o próximo passo e hosperdar e começar a ser exibido na nuvem.
+   Novas mudanças serão realiazdos após sua implatação para ajustes de rotina.
