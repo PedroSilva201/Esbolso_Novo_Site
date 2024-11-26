@@ -54,5 +54,6 @@ Se você deseja adicionar um sistema de consentimento de cookies para conformida
    Novas mudanças serão realiazdos após sua implatação para ajustes de rotina.
 
    ## Alguns exemplos do site funcionando
-   Mandar mensagens para o banco de dadoa
-   https://github.com/PedroSilva201/Esbolso_Novo_Site/issues/3#issue-2695926715
+   Mandar mensagens para o banco de dados
+
+[Assista ao vídeo sobre o projeto aqui](https://github.com/PedroSilva201/Esbolso_Novo_Site/issues/3#issue-2695926715)
