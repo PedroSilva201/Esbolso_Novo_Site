@@ -1,6 +1,7 @@
 # Projeto Abacaxi 🍍
 
 Este é um projeto full-stack desenvolvido com Node.js, Express, MongoDB e EJS, com funcionalidades como um sistema de contato e gerenciamento de matérias.
+O certame serve como esbolso de um novo site qye está sendo realizado neste momento.
 
 ## Funcionalidades
 
