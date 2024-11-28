@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Entre em Contato</h1>
+        <div class="nav-links">
+            <a href="/" class="nav-item">Home</a>
+            <a href="/contato" class="nav-item">Contato</a>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Fale Conosco</h2>
+        <p>Para poder mandar sugestões basta preencher o formulario com Nome e E-mail e sua sugestão, tudo será analisado e posteriomente será dado o retorno sobre o que foi publicado</p>
+        
+        <!-- Mensagem de Sucesso -->
+        <% if (success) { %>
+            <div class="success-message"><%= success %></div>
+        <% } %>
+    
+        <!-- Mensagem de Erro -->
+        <% if (error) { %>
+            <div class="error-message"><%= error %></div>
+        <% } %>
+    
+        <form action="/contato" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
+    
+    <footer>
+        <p>&copy; 2024 Meu Site - Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: contato@exemplo.com</p>
+        <p><a href="/termosdeuso">Termos de uso</a></p>
+        <p><a href="/politicadeprivacidade">Politica de Privacidade</a></p>
+        <p><a href="/sobre">Sobre nós</a></p>
+    </footer>
+</body>
+</html>
