@@ -1,6 +1,7 @@
 # Projeto Abacaxi 🍍
 
 Este é um projeto full-stack desenvolvido com Node.js, Express, MongoDB e EJS, com funcionalidades como um sistema de contato e gerenciamento de matérias.
+O certame serve como esbolso de um novo site qye está sendo realizado neste momento.
 
 ## Funcionalidades
 
@@ -48,3 +49,11 @@ Se você deseja adicionar um sistema de consentimento de cookies para conformida
            res.status(200).json({ message: 'Consentimento rejeitado' });
        }
    });
+   ```
+   As princiapis mudanças é em relação ao funcionamento da página de contatos e tambem da integração com o MongoDB, o próximo passo e hosperdar e começar a ser exibido na nuvem.
+   Novas mudanças serão realiazdos após sua implatação para ajustes de rotina.
+
+   ## Alguns exemplos do site funcionando
+   Mandar mensagens para o banco de dados
+
+[Assista ao vídeo sobre o projeto aqui](https://github.com/PedroSilva201/Esbolso_Novo_Site/issues/3#issue-2695926715)
