@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -53,3 +54,55 @@
     </footer>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Entre em Contato</h1>
+        <div class="nav-links">
+            <a href="/" class="nav-item">Home</a>
+            <a href="/contato" class="nav-item">Contato</a>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Fale Conosco</h2>
+        
+        <!-- Mensagem de Sucesso -->
+        <% if (success) { %>
+            <div class="success-message"><%= success %></div>
+        <% } %>
+    
+        <!-- Mensagem de Erro -->
+        <% if (error) { %>
+            <div class="error-message"><%= error %></div>
+        <% } %>
+    
+        <form action="/contato" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
+    
+    <footer>
+        <p>&copy; 2024 Meu Site</p>
+    </footer>
+</body>
+</html>
+>>>>>>> f6fc10868c10ae704d973a999382fcaf4a5de472
