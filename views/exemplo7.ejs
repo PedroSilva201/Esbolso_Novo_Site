@@ -1,0 +1,65 @@
+<!-- views/about.ejs -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTENDA COMO É UMA GAMBIARRA EM PROGRAMAÇÃO?</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTENDA COMO É UMA GAMBIARRA EM PROGRAMAÇÃO?</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<nav class="navbar">
+    <h1>SITE DO PEDRO - Sejam Bem-vindos ao Meu Site!</h1>
+    <div class="nav-links">
+        <a href="/" class="nav-item">Home</a>
+        <a href="/sobre" class="nav-item">Sobre o nosso site</a>
+        <a href="/contato" class="nav-item">Contato</a>
+    </div>
+</nav>
+<body>
+    <div class="container">
+        <a href="/"><button href="/">Voltar</button></a>
+        <h1>ENTENDA COMO É UMA GAMBIARRA EM PROGRAMAÇÃO?</h1>
+        
+        <!-- Imagem adicionada -->
+        <img src="/images/Gambiarra.PNG">
+        <p>Um exempplo que chamou a atenção neste site é o da linguage de programação em C, pois o memso usa o exemplo de repetir o Hello World! em C 5 vezes como no exemplo abaixo:</p>
+    <pre>
+    <code>
+        #include <stdio.h>
+            int main (void) {
+                int i;
+                for (i = 0; i < 5; i++) {
+                    printf("Hello world!\n");
+                }
+                return 0;
+            }
+    </code>
+    </pre>
+    <p> Mas no exemplo abaixo ele apresenta o código com uma gambiarra e sem o laço de repetição deixando o mesmo assim:
+        <pre><code>#include <stdio.h>
+            int main (void) {
+                printf("Hello world!\n");
+                printf("Hello world!\n");
+                printf("Hello world!\n");
+                printf("Hello world!\n");
+                printf("Hello world!\n");
+            
+                return 0;
+            }</code></pre>
+            <p>Segundo o professor Mineda caso uma pessoa queria fazer este mesmo programa em 20.000 isso poderá ocasonar o problema de não rodar o script, utilizando a gambiarra e não o método de repetição.</p>
+            <p>Fonte original extraida deste site <a href="https://pt.wikipedia.org/wiki/Gambiarra">Wikipedia.org</a></p>
+</body>
+<footer>
+    <p>&copy; 2024 Meu Site - Todos os direitos reservados</p>
+    <p>Entre em contato pelo e-mail: contato@exemplo.com</p>
+    <p><a href="/termosdeuso">Termos de uso</a></p>
+    <p><a href="/politicadeprivacidade">Politica de Privacidade</a></p>
+    <p><a href="/sobre">Sobre nós</a></p>
+</footer>
+</html>

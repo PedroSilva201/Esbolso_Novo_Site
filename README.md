@@ -57,3 +57,5 @@ Se você deseja adicionar um sistema de consentimento de cookies para conformida
    Mandar mensagens para o banco de dados
 
 [Assista ao vídeo sobre o projeto aqui](https://github.com/PedroSilva201/Esbolso_Novo_Site/issues/3#issue-2695926715)
+Atualização referente ao dia 28 de novembro: ajustes em algumas paginas do front-end e criação de rotas, todos os probelmas foram resolvidos...
+Atualização referente ao dia 03 de dezembro: Ajustes nas novas páginas e colocação de conteúdo mais proximo o da realidade, o que erra feito deste então era apenr imitações de páginas com conteúdos na web.
