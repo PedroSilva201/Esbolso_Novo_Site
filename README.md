@@ -60,4 +60,4 @@ Se você deseja adicionar um sistema de consentimento de cookies para conformida
 Atualização referente ao dia 28 de novembro: ajustes em algumas paginas do front-end e criação de rotas, todos os probelmas foram resolvidos...
 
 Atualização referente ao dia 03 de dezembro: Ajustes nas novas páginas e colocação de conteúdo mais proximo o da realidade, o que erra feito deste então era apenr imitações de páginas com conteúdos na web.
-[Mais detalhes sobre as paginas de interface aqui:] (https://github.com/PedroSilva201/Esbolso_Novo_Site/issues/4#issue-2716162935).
+[Mais detalhes sobre as paginas de interface aqui](https://github.com/PedroSilva201/Esbolso_Novo_Site/issues/4#issue-2716162935).
